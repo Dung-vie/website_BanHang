@@ -50,7 +50,7 @@ Hệ thống được xây dựng theo mô hình client–server và triển kha
 
 ## Cách chạy dự án
 ```bash
-1. git clone <repo-url>
+1. git clone dự án
 2. cd website_BanHang
 3. npm install
 4. npm run dev
