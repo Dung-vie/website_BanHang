@@ -1,16 +1,56 @@
-# React + Vite
+# Website Thương Mại Điện Tử (ReactJS + Python + AWS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Giới thiệu
+Ứng dụng web hỗ trợ quản lý và hiển thị sản phẩm, cho phép quản trị viên thao tác với dữ liệu thông qua giao diện trực quan.  
+Hệ thống được xây dựng theo mô hình client–server và triển khai trên nền tảng cloud.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Mục đích
+- Xây dựng hệ thống quản lý sản phẩm cơ bản  
+- Tổ chức và lưu trữ dữ liệu trên nền tảng cloud  
+- Áp dụng kiến trúc serverless để tăng khả năng mở rộng  
+- Tối ưu việc trao đổi dữ liệu giữa frontend và backend  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Chức năng tổng quát
+- Quản trị viên đăng nhập và quản lý sản phẩm  
+- Frontend giao tiếp với backend thông qua REST API  
+- Dữ liệu được lưu trữ trên cloud database (DynamoDB)  
+- Xử lý và validate dữ liệu trước khi gửi lên server  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Chức năng chính
+- Thêm, sửa, xoá và hiển thị danh sách sản phẩm  
+- Kiểm tra và validate dữ liệu đầu vào  
+- Giao tiếp frontend – backend thông qua REST API  
+- Lưu trữ dữ liệu trên DynamoDB  
+- Triển khai backend serverless với AWS Lambda  
+
+---
+
+## Công nghệ sử dụng
+### Frontend
+- ReactJS  
+- HTML, CSS, JavaScript  
+
+### Backend
+- Python  
+
+### Cloud & Deploy
+- AWS Lambda  
+- AWS API Gateway  
+
+### Database
+- DynamoDB  
+
+---
+
+## Cách chạy dự án
+```bash
+1. git clone <repo-url>
+2. cd website_BanHang
+3. npm install
+4. npm run dev
